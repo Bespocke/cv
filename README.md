@@ -4,7 +4,7 @@
 
 Un CV conçu comme une expérience interactive plutôt qu'un document traditionnel.
 
-Le site combine **typographie minimaliste, animations au scroll, transitions cinématiques et visuels plein écran** pour présenter mon parcours, mes expériences et mes projets.
+Ce site présente mon parcours, mes expériences et mes projets.
 
 ---
 
