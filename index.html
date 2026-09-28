@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#050507" />
+  <meta name="description" content="Portfolio personnel — CV interactif." />
+  <title>[PRÉNOM NOM] — Portfolio</title>
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="site-nav">
+    <a class="brand" href="#top" aria-label="Retour au début">[P.N.]</a>
+    <nav aria-label="Navigation principale">
+      <a href="#journey">Parcours</a>
+      <a href="#projects">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-progress"><span></span></div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-orbit hero-orbit-a" aria-hidden="true"></div>
+      <div class="hero-orbit hero-orbit-b" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow hero-eyebrow">2026</p>
+        <h1 id="hero-title"><span class="hero-first">[PRÉNOM]</span><span class="hero-last">[NOM]</span></h1>
+        <div class="hero-meta">
+          <p>[STATUT ACTUEL]</p>
+          <p>[DOMAINE / SPÉCIALISATION]</p>
+        </div>
+      </div>
+      <div class="hero-bottom">
+        <span>Basé en France</span>
+        <a href="#journey" class="scroll-cue"><span>Faire défiler</span><i></i></a>
+        <span>Scroll to explore</span>
+      </div>
+    </section>
+
+    <section class="intro-band" aria-label="Introduction">
+      <div class="section-kicker">01 / Parcours</div>
+      <p class="intro-copy">Un parcours basé sur la résilience l'abnégation et construit autour de la curiosité technique et des projets concrets.</p>
+    </section>
+
+    <section id="journey" class="journey" aria-labelledby="journey-title">
+      <div class="journey-pin">
+        <div class="journey-media" aria-hidden="true">
+          <img class="journey-photo active" src="assets/images/story-01.svg" alt="" />
+          <img class="journey-photo" src="assets/images/story-02.svg" alt="" />
+          <img class="journey-photo" src="assets/images/story-03.svg" alt="" />
+          <img class="journey-photo" src="assets/images/story-04.svg" alt="" />
+          <div class="journey-vignette"></div>
+        </div>
+        <div class="journey-shell">
+          <div class="journey-heading">
+            <p class="eyebrow">01 — Parcours</p>
+            <h2 id="journey-title">Construire<em> par étapes.</em></h2>
+          </div>
+
+          <div class="journey-columns">
+            <div class="journey-column" data-column="education">
+              <div class="column-label"><span>01</span><span>Formation</span></div>
+              <div class="timeline-list" id="education-list"></div>
+            </div>
+            <div class="journey-column" data-column="experience">
+              <div class="column-label"><span>02</span><span>Expériences</span></div>
+              <div class="timeline-list" id="experience-list"></div>
+            </div>
+          </div>
+        </div>
+        <div class="journey-index" aria-hidden="true"><span>01</span><i></i><span>04</span></div>
+      </div>
+    </section>
+
+    <section class="transition" aria-hidden="true">
+      <div class="transition-line"></div>
+      <p>De l'apprentissage à la mise en œuvre.</p>
+    </section>
+
+    <section id="projects" class="projects" aria-labelledby="projects-title">
+      <div class="projects-heading">
+        <p class="eyebrow">02 — Projects</p>
+        <h2 id="projects-title">Projets<br /><em>et compétences.</em></h2>
+        <p>Une sélection de projets techniques, personnels et expérimentaux.</p>
+      </div>
+
+      <div class="projects-stage" id="projects-stage"></div>
+    </section>
+
+    <section id="contact" class="contact" aria-labelledby="contact-title">
+      <div class="contact-grid">
+        <div>
+          <p class="eyebrow">03 — Contact</p>
+          <h2 id="contact-title">On discute<span> ?</span></h2>
+        </div>
+        <div class="contact-links">
+          <a class="contact-link" data-contact="github" href="#" target="_blank" rel="noreferrer">
+            <span><small>GitHub</small> [GITHUB_USERNAME]</span><b>↗</b>
+          </a>
+          <a class="contact-link" data-contact="email" href="mailto:[EMAIL_PRO]">
+            <span><small>Email professionnel</small> [EMAIL_PRO]</span><b>↗</b>
+          </a>
+          <a class="contact-link" data-contact="cv" href="assets/cv/CV_fr.pdf" download="CV_fr.pdf">
+            <span><small>Curriculum Vitae</small> Télécharger mon CV</span><b>↓</b>
+          </a>
+        </div>
+      </div>
+      <footer class="site-footer">
+        <span>© <span id="year"></span> [PRÉNOM NOM]</span>
+        <span>Conçu pour le web, pensé comme un parcours.</span>
+      </footer>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
