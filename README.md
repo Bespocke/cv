@@ -1,6 +1,6 @@
 # ✦ Portfolio — CV interactif
 
-> **CV personnel · Portfolio · Expérience web immersive**
+> **CV personnel · Portfolio ·**
 
 Un CV conçu comme une expérience interactive plutôt qu'un document traditionnel.
 
@@ -11,10 +11,10 @@ Ce site présente mon parcours, mes expériences et mes projets.
 ### ◇ Sections
 
 **01 — Parcours**
-Formations & expériences présentées sous forme de timeline interactive.
+Formations & expériences.
 
 **02 — Projets**
-Une sélection de projets techniques avec une présentation immersive.
+Une sélection de projets techniques.
 
 **03 — Contact**
 GitHub · Email professionnel · CV
